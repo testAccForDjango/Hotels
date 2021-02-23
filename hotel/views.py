@@ -61,7 +61,6 @@ def index(request):
         form = HotelFormNew()
         return render(request, 'hotel/index.html', {'form': form })
 
-
 def about(request):
     return render(request, 'hotel/about.html')
 

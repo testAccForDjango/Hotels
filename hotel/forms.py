@@ -12,3 +12,4 @@ class HotelFormNew(forms.Form):
     price = forms.IntegerField(min_value=1, max_value=999999, required=False)
     city = forms.CharField(max_length=30, required=False)
     rating = forms.IntegerField(min_value=1, max_value=10, required=False)
+
